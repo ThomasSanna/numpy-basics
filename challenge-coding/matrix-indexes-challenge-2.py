@@ -44,3 +44,14 @@ print(matrix[:2, 1:])
 
 print('---------10. Select the elements from the first two columns and last two rows.---------')
 print(matrix[1:, :2])
+
+
+matrix = np.matrix([[ 1,  2,  3,  4,  5], 
+                    [ 6,  7,  8,  9, 10], 
+                    [11, 12, 13, 14, 15], 
+                    [16, 17, 18, 19, 20], 
+                    [21, 22, 23, 24, 25]])
+
+#11 Select the 3x3 matrix from the center of the matrix.
+print('---------11. Select the 3x3 matrix from the center of the matrix.---------')
+print(matrix[1:4, 1:4])
